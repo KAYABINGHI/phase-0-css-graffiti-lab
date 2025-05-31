@@ -1,1 +1,21 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}/* write your override styles here */
+body{
+    margin: 0; /* Remove default margin */
+    padding: 0 ;
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Set a clean font */
+}
+.container{
+    max-width: 1200px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding around the content */
+}
+img{
+    max-width:  100px;
+    height: auto; 
+    border: none;
+    display: block;/* Ensure images are responsive */
+}
